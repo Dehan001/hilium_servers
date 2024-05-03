@@ -812,11 +812,20 @@ header.header-light #mainmenu a{
     float: none;
     text-transform: none;
 }
+.sub-menu {
+    visibility: visible;
+    opacity: 1;
+    margin-top: 0px;
+    max-height: 300px; /* Adjust the height as needed */
+    overflow-y: auto;
+   
+}
 
 #mainmenu li:hover>ul {
     visibility: visible;
     opacity: 1;
     margin-top: 0px;
+   
 }
 
 /* before edited 
